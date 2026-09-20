@@ -467,7 +467,13 @@ function Contact() {
 >
   GitHub ↗
 </a>
-
+<a
+  href="https://www.linkedin.com/in/harinin24/"
+  target="_blank"
+  rel="noreferrer"
+>
+  LinkedIn
+</a>
 <a
   href="https://leetcode.com/u/Harini_2008/"
   target="_blank"
