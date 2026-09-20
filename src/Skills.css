@@ -1,0 +1,209 @@
+
+/* ===== Skills Section ===== */
+
+.skills-section {
+  padding: 80px 8%;
+}
+
+.skills-section .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skills-subtitle {
+  margin-top: 12px;
+  color: #8b7d72;
+  font-size: 15px;
+}
+
+/* ===== Skills Grid ===== */
+
+.skills-rings-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 35px 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ===== Skill Card ===== */
+
+.skill-ring-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px 12px;
+  border-radius: 20px;
+  background: #fffaf5;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.skill-ring-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(70, 48, 32, 0.1);
+}
+
+/* ===== Ring Container ===== */
+
+.skill-ring {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ring hidden initially */
+
+.skill-ring > svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Ring appears on hover */
+
+.skill-ring-card:hover .skill-ring > svg {
+  opacity: 1;
+}
+
+/* ===== Ring Track ===== */
+
+.ring-track {
+  fill: none;
+  stroke: #eadfd5;
+  stroke-width: 7;
+}
+
+/* ===== Ring Progress ===== */
+
+.ring-progress {
+  fill: none;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-dasharray: 301.59;
+  stroke-dashoffset: 301.59;
+  transition: stroke-dashoffset 1s ease;
+}
+
+.skill-ring-card:hover .ring-progress {
+  stroke-dashoffset: var(--ring-offset);
+}
+
+/* ===== Center Logo and Percentage ===== */
+
+.skill-ring-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  z-index: 1;
+}
+
+/* Logo stays visible and centered */
+
+.skill-ring-center svg {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.skill-ring-card:hover .skill-ring-center svg {
+  transform: scale(1.08);
+}
+
+/* Percentage hidden initially */
+
+.skill-ring-center span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #594538;
+  opacity: 0;
+  transform: translateY(4px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+/* Percentage appears on hover */
+
+.skill-ring-card:hover .skill-ring-center span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Skill Name ===== */
+
+.skill-ring-card h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #49382e;
+  text-align: center;
+}
+
+/* ===== Tablet ===== */
+
+@media (max-width: 900px) {
+  .skills-rings-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 600px) {
+  .skills-section {
+    padding: 60px 5%;
+  }
+
+  .skills-rings-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 14px;
+  }
+
+  .skill-ring-card {
+    padding: 18px 8px;
+  }
+
+  .skill-ring {
+    width: 110px;
+    height: 110px;
+  }
+
+  .skill-ring-center svg {
+    width: 34px;
+    height: 34px;
+  }
+
+  .skill-ring-card h3 {
+    font-size: 14px;
+  }
+}
+
+/* ===== Reduced Motion ===== */
+
+@media (prefers-reduced-motion: reduce) {
+  .skill-ring-card,
+  .skill-ring > svg,
+  .ring-progress,
+  .skill-ring-center svg,
+  .skill-ring-center span {
+    transition: none;
+  }
+}
