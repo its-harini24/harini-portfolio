@@ -50,14 +50,16 @@ section {
   gap: 30px;
 }
 
-.nav-logo {
+.logo {
   font-family: "Playfair Display", serif;
   font-size: 32px;
   font-weight: 700;
+  color: var(--brown);
   text-decoration: none;
+  white-space: nowrap;
 }
 
-.nav-logo span {
+.logo span {
   color: var(--copper);
 }
 
