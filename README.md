@@ -1,118 +1,143 @@
 
-# Harini's Personal Portfolio
+<div align="center">
 
-A personal portfolio website built with React to showcase my skills, projects, education, and learning journey as a CSBS student at Rajalakshmi Institute of Technology, Chennai.
+# ✨ Hey, it's Harini!
 
-## About
+### CSBS Student | Frontend Developer | Creative Problem Solver
 
-Hi, I'm Harini! I'm a Computer Science and Business Systems (CSBS) student interested in frontend development, creative web experiences, and building projects that solve real-world problems.
+<p>
+  <a href="https://harini-portfolio-sand-one.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-B87952?style=for-the-badge" alt="Visit My Portfolio" />
+  </a>
+  <a href="mailto:harinin.profile@gmail.com">
+    <img src="https://img.shields.io/badge/📩_Contact_Me-594538?style=for-the-badge" alt="Contact Me" />
+  </a>
+</p>
 
-This portfolio highlights my technical skills, projects, and progress as I continue learning and exploring web development.
+<p>
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+</p>
 
-## Features
+</div>
 
-- Responsive design for desktop and mobile
-- Home, About, Skills, Education, Experience, Projects, and Contact sections
-- Interactive skill rings with hover effects
-- Project cards with screenshots and links
-- Resume download
-- Coding profile and social links
-- Smooth scrolling and animations
+---
 
-## Built With
+## 👋 About Me
 
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- React Icons
-- Vite
+Hi, I'm **Harini**, a Computer Science and Business Systems (CSBS) student at **Rajalakshmi Institute of Technology, Chennai**.
 
-## Portfolio Sections
+I'm interested in frontend development, creative web experiences, and building projects that solve real-world problems.
 
-- **Home** – Introduction and resume download
-- **About** – A little about me
-- **Skills** – Technologies and tools I explore
-- **Education** – Academic background
-- **Experience** – Internship experience
-- **Projects** – My web development projects
-- **Coding Profiles** – GitHub and LeetCode
-- **Achievements** – Hackathon and learning achievements
-- **Contact** – Get in touch
+I enjoy learning by building, exploring new technologies, and bringing creative ideas to life through code.
 
-## Projects
+- 🌱 Currently learning and improving my frontend development skills
+- 💻 Exploring React, Java, Python, and web technologies
+- 🎨 Interested in design, creativity, and interactive user experiences
+- 🚀 Always curious to learn, build, and grow
 
-Some of the projects featured in my portfolio:
+---
 
-- Password Generator
-- Netflix Clone
-- React To-Do List
-- FAQ Accordion
-- Messenger UI
-- Hackathon Registration Form
+## 🛠️ Tech Stack
 
-## Getting Started
+### 💻 Programming Languages
+<p>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
 
-### Prerequisites
+### 🌐 Web Development
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+</p>
 
-- Node.js
-- npm
+### 🗄️ Database & Tools
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel" />
+</p>
 
-### Installation
+---
 
-1. Clone the repository:
+## 🚀 Featured Projects
 
-   ```bash
-   git clone https://github.com/its-harini24/harini-portfolio.git
-   ```
+| Project | Description | Links |
+|---|---|---|
+| 🔐 Password Generator | React-based password generator | [Live Demo](https://password-generator-react-blond-eight.vercel.app/) · [Source](https://github.com/its-harini24/Password-Generator-react) |
+| 🎬 Netflix Clone | Netflix-inspired frontend project | [Live Demo](https://netflix-clone-alpha-khaki-93.vercel.app/) · [Source](https://github.com/its-harini24/Netflix-Clone) |
+| ✅ React To-Do List | A simple task management app | [Live Demo](https://react-todo-list-two-mu.vercel.app/) · [Source](https://github.com/its-harini24/react-todo-list) |
+| ❓ FAQ Accordion | Interactive FAQ component | [Live Demo](https://faq-accordion-umber-eight.vercel.app/) · [Source](https://github.com/its-harini24/faq-accordion) |
+| 💬 Messenger UI | Messenger-inspired chat interface | [Live Demo](https://chat-ui-demo-tawny.vercel.app/) |
+| 📝 Hackathon Registration Form | Google-inspired registration UI | [Live Demo](https://hackathon-registeration-form-google.vercel.app/) |
 
-2. Navigate to the project folder:
+---
 
-   ```bash
-   cd harini-portfolio
-   ```
+## 🎓 Education & Experience
 
-3. Install dependencies:
+- 🎓 **B.Tech – Computer Science and Business Systems (CSBS)**
+- 🏫 Rajalakshmi Institute of Technology, Chennai
+- 💼 Frontend Development Intern — College startup
 
-   ```bash
-   npm install
-   ```
+---
 
-4. Start the development server:
+## 🏆 Achievements
 
-   ```bash
-   npm run dev
-   ```
+- 🥈 **2nd Place** — Freshathon college hackathon
+- 📜 NPTEL — The Joy of Computing using Python
 
-5. Open the local URL shown in your terminal.
+---
 
-## Project Structure
+## 💡 Beyond Coding
 
-```text
-harini-portfolio/
-├── public/
-│   ├── projects/
-│   └── Harini_N_Resume.pdf
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── App.jsx
-│   ├── Skills.jsx
-│   └── Skills.css
-├── index.html
-├── package.json
-├── package-lock.json
-├── eslint.config.js
-├── .gitignore
-└── README.md
-```
+When I'm not coding, I enjoy exploring my creative side through:
 
-## Connect With Me
+🎨 Painting & Drawing · 🧵 Embroidery & Crafts · ✍️ Poetry · 👗 Fashion Designing · 📚 Reading
 
-- GitHub: [its-harini24](https://github.com/its-harini24)
-- LeetCode: [Harini_2008](https://leetcode.com/u/Harini_2008/)
-- Email: [harinin.profile@gmail.com](mailto:harinin.profile@gmail.com)
+---
 
-## License
+## 📊 Coding Profiles
 
-This project is created for my personal portfolio and learning journey.
+<p>
+  <a href="https://github.com/its-harini24">
+    <img src="https://img.shields.io/badge/GitHub-its--harini24-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
+  </a>
+  <a href="https://leetcode.com/u/Harini_2008/">
+    <img src="https://img.shields.io/badge/LeetCode-Harini__2008-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile" />
+  </a>
+</p>
+
+---
+
+## 🌐 Let's Connect!
+
+<p>
+  <a href="https://harini-portfolio-sand-one.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-B87952?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/its-harini24">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:harinin.profile@gmail.com">
+    <img src="https://img.shields.io/badge/Email-594538?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+---
+
+<div align="center">
+
+### ✨ Learning, building, and growing — one project at a time.
+
+⭐ If you like my work, feel free to explore my projects!
+
+</div>
