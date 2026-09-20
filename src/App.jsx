@@ -6,56 +6,56 @@ import Skills from "./Skills";
 
 const projects = [
   {
-    title: "Password Generator",
-    description:
-      "A React app that generates customizable passwords.",
-    tech: ["React", "JavaScript", "CSS"],
-    link: "https://github.com/its-harini24/Password-Generator-react",
-    demo: "https://password-generator-react-blond-eight.vercel.app/",
-    image: "/projects/password-generator.jpeg",
-  },
-  {
+     orderId: 1,
     title: "Netflix Clone",
-    description:
-      "A frontend project inspired by Netflix.",
+    description: "A frontend project inspired by Netflix.",
     tech: ["HTML", "CSS", "JavaScript"],
     link: "https://github.com/its-harini24/Netflix-Clone",
     demo: "https://netflix-clone-alpha-khaki-93.vercel.app/",
     image: "/projects/netflix.jpeg",
   },
   {
+    orderId: 2,
+    title: "Messenger UI",
+    description: "A chat interface built to practice frontend development.",
+    tech: ["React", "JavaScript", "CSS"],
+    demo: "https://chat-ui-demo-tawny.vercel.app/",
+    image: "/projects/chat-ui.jpeg",
+  },
+  {
+    orderId: 3,
+    title: "Hackathon Registration Form",
+    description: "A Google-inspired registration form UI clone.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    demo: "https://hackathon-registeration-form-google.vercel.app/",
+    image: "/projects/hackathon-form.jpeg",
+  },
+  {
+    orderId: 4,
     title: "React To-Do List",
-    description:
-      "A simple task management app built with React.",
+    description: "A simple task management app built with React.",
     tech: ["React", "JavaScript", "CSS"],
     link: "https://github.com/its-harini24/react-todo-list",
     demo: "https://react-todo-list-two-mu.vercel.app/",
     image: "/projects/todo-list.jpeg",
   },
   {
+    orderId: 5,
+    title: "Password Generator",
+    description: "A React app that generates customizable passwords.",
+    tech: ["React", "JavaScript", "CSS"],
+    link: "https://github.com/its-harini24/Password-Generator-react",
+    demo: "https://password-generator-react-blond-eight.vercel.app/",
+    image: "/projects/password-generator.jpeg",
+  },
+  {
+    orderId: 6,
     title: "FAQ Accordion",
-    description:
-      "A responsive FAQ app using state and conditional rendering.",
+    description: "A responsive FAQ app using state and conditional rendering.",
     tech: ["React", "JavaScript", "CSS"],
     link: "https://github.com/its-harini24/faq-accordion",
     demo: "https://faq-accordion-umber-eight.vercel.app/",
     image: "/projects/faq.jpeg",
-  },
-  {
-    title: "Messenger UI",
-    description:
-      "A chat interface built to practice frontend development.",
-    tech: ["React", "JavaScript", "CSS"],
-    demo: "https://chat-ui-demo-tawny.vercel.app/",
-    image: "/projects/chat-ui.jpeg",
-  },
-  {
-    title: "Hackathon Registration Form",
-    description:
-      "A Google-inspired registration form UI clone.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    demo: "https://hackathon-registeration-form-google.vercel.app/",
-    image: "/projects/hackathon-form.jpeg",
   },
 ];
 
@@ -287,13 +287,15 @@ function Projects() {
     d="M 100 100 H 900 C 960 100 960 150 960 200 V 300 C 960 350 920 400 860 400 H 140"
   />
 </svg>
-  {projects.map((project, index) => (
-  <div
-    className={`path-item ${
-      index % 2 === 0 ? "left" : "right"
-    }`}
-    key={project.title}
-  >
+  {[...projects]
+  .sort((a, b) => a.orderId - b.orderId)
+  .map((project, index) => (
+    <div
+      className={`path-item ${
+        index % 2 === 0 ? "left" : "right"
+      }`}
+      key={project.orderId}
+    >
             <span className="level-number">
               LEVEL {String(index + 1).padStart(2, "0")}
             </span>
